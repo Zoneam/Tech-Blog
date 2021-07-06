@@ -1,22 +1,22 @@
 [
   {
-    "title": "MVC Blog",
-    "post": "dofjodjfoksdjfodjfoijh  dfshdkflnjds flkfdlksjfoijef dslf sdkfj",
+    "title": "Spelunking in node_modules 👷",
+    "post": "This last week I started work again after over a month away. What's the first thing you do when you get back from that long away? Why, upgrade dependencies of course! In particular, this was for my kcd-scripts and paypal-scripts projects. Of note, Rollup, Jest, and lint-staged each received a few nice additions so I was excited to get things going!",
     "user_id": "1"
   },
   {
-    "title": "3 MVC Blog",
-    "post": "dofjodjfoksdjfodjfoijh  dfshdkflnjds flkfdlksjfoijef dslf sdkfj",
+    "title": "The Importance of Learning CSS",
+    "post": "CSS is a very implicit language; it relies heavily on mechanisms buried deep in the CSS specification. When those mechanisms work in ways we don't expect, we're left in the dark, not sure what the heck is going on. We don't know what we don't know.",
     "user_id": "3"
   },
   {
-    "title": "5 MVC Blog",
-    "post": "dofjodjfoksdjfodjfoijh  dfshdkflnjds flkfdlksjfoijef dslf sdkfj",
+    "title": "Hands-Free Coding",
+    "post": "Earlier this year, I developed Cubital Tunnel Syndrome, a repetitive-strain injury, in both of my elbows. As a result, I pretty much can't use a mouse or keyboard; after a few minutes, I get a burning pain shooting down my arms. Even if I try to limit my computer usage to 60-second bursts, I wind up inadvertently making the situation worse.",
     "user_id": "2"
   },
   {
-    "title": "777 MVC Blog",
-    "post": "dofjodjfoksdjfodjfoijh  dfshdkflnjds flkfdlksjfoijef dslf sdkfj",
+    "title": "Refreshing Server-Side Props",
+    "post": "One of my favourite features about Next.js is that individual routes can opt-in to server-side rendering. While I tend to be a pretty big advocate for static generation, this is a perfect use-case for server-side rendering; I can fetch and inject the database data on first render, simplifying my front-end code.",
     "user_id": "1"
   }
 ]

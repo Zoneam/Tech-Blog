@@ -1,5 +1,4 @@
 <div id="login">
-  <h3 class="text-center text-white pt-5">Login form</h3>
   <div class="container">
     <div id="login-row" class="row justify-content-center align-items-center">
       <div id="login-column" class="col-md-6">
@@ -7,11 +6,11 @@
           <form id="login-form" class="login-form" action="" method="post">
             <h3 class="text-center text-info">Login</h3>
             <div class="form-group">
-              <label for="email-login" class="text-info">Email:</label><br />
+              <label for="email" class="text-info">Email:</label><br />
               <input
                 type="text"
                 name="username"
-                id="email-login"
+                id="email"
                 class="form-control"
               />
             </div>
@@ -21,20 +20,21 @@
               <input
                 type="password"
                 name="password"
-                id="password-login"
+                id="password"
                 class="form-control"
               />
             </div>
-            <div class="form-group">
+            <div class="form-group login-form">
               <input
                 type="submit"
                 name="login"
-                class="btn btn-info btn-md"
+                class="col-sm-12 btn btn-primary btn-info btn-md"
                 value="Login"
               />
             </div>
             <div id="register-link" class="text-right">
-              <a href="#" class="text-info">Register here</a>
+              <a href="./signup" class="text-info nav-link text-center">Register
+                here</a>
             </div>
           </form>
         </div>
