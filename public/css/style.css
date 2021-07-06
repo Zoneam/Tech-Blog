@@ -1,7 +1,7 @@
 .header-style {
-  background-color: rgb(158, 146, 34);
+  background-color: rgb(73, 72, 71);
   color: black;
-  padding: 30px;
+  padding: 32px;
 }
 
 nav a {
@@ -9,15 +9,20 @@ nav a {
   font-weight: 600;
   margin: 10px;
 }
+.float-left,
+.float-right,
+.card-header {
+  color: blue;
+}
 
 .header-box {
-  background-color: rgb(94, 97, 90);
+  background-color: rgb(21, 10, 88);
   margin: 10px;
   width: 360px;
   opacity: 0.8;
   text-align: center;
   text-decoration: none;
-  box-shadow: 6px 5px rgb(137, 138, 145);
+  box-shadow: 6px 5px rgb(25, 25, 26);
 }
 
 .header-txt {
@@ -29,7 +34,7 @@ nav a {
 }
 
 body {
-  background-color: rgb(94, 97, 90);
+  background-color: rgb(120, 122, 117);
 }
 
 .log-form {
@@ -45,9 +50,9 @@ body {
 }
 
 .new-post {
-  background-color: rgb(158, 146, 34);
+  background-color: rgb(169, 195, 197);
   font-weight: 700;
-  color: aliceblue;
+  color: rgb(55, 132, 200);
 }
 
 .list-group {
@@ -56,10 +61,10 @@ body {
 
 .main-list {
   color: aliceblue;
-  margin-bottom: 20px;
+  margin-bottom: 23px;
   padding: 2.5%;
   border-radius: 20px;
-  background-color: rgb(158, 146, 34);
+  background-color: rgb(190, 214, 219);
   text-decoration: none;
 }
 
@@ -72,18 +77,18 @@ body {
 
 .dashboard-card {
   color: beige;
-  border: rgb(158, 146, 34);
+  border: rgb(192, 203, 206);
   border-style: groove;
   margin-bottom: 10px;
-  background-color: rgb(158, 146, 34);
+  background-color: rgb(217, 228, 230);
 }
 
 .comment-card {
   color: beige;
-  border: rgb(158, 146, 34);
+  border: rgb(215, 228, 223);
   border-style: groove;
   margin-bottom: 10px;
-  background-color: rgb(158, 146, 34);
+  background-color: rgb(188, 210, 214);
 }
 
 .single-post {
