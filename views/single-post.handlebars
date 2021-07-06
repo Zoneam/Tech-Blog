@@ -4,7 +4,7 @@
       <div class="card-header">
         <span>{{title}}</span>
         <span class="float-right">Posted by:
-          {{user.name}}
+          {{User.name}}
         </span>
       </div>
       <div class="card-body content-card">
@@ -19,6 +19,13 @@
     <form method="POST" action="/api/comments" class="card-body">
       <div class="card-body content-card">
         <div class="form-group">
+          <input
+            type="text"
+            name="post_id"
+            value="{{id}}"
+            id="post_id"
+            hidden
+          />
           <label for="commentary">Comment</label>
           <textarea
             type="text"

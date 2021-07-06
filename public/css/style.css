@@ -48,7 +48,10 @@ body {
   border-style: double;
   background-color: beige;
 }
-
+.blockquote-footer {
+  margin-top: 5px;
+  float: right;
+}
 .new-post {
   background-color: rgb(169, 195, 197);
   font-weight: 700;
