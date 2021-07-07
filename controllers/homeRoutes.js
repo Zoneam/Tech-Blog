@@ -3,7 +3,6 @@ const { User, Post, Comment } = require("../models");
 const withAuth = require("../utils/auth");
 
 router.get("/", withAuth, async (req, res) => {
-  console.log("----------------------posts");
   try {
     const postData = await Post.findAll({
       include: [
@@ -15,7 +14,6 @@ router.get("/", withAuth, async (req, res) => {
     });
     console.log(postData);
     const posts = postData.map((post) => post.get({ plain: true }));
-
     res.render("homepage", {
       posts,
       logged_in: req.session.logged_in,
@@ -25,7 +23,6 @@ router.get("/", withAuth, async (req, res) => {
   }
 });
 
-//--------------
 router.get("/login", (req, res) => {
   if (req.session.logged_in) {
     res.redirect("/");
@@ -33,7 +30,6 @@ router.get("/login", (req, res) => {
   }
   res.render("login");
 });
-//--------
 
 router.get("/posts/:id", withAuth, async (req, res) => {
   try {

@@ -3,7 +3,6 @@ const { Comment } = require("../../models");
 const withAuth = require("../../utils/auth");
 
 router.post("/", withAuth, async (req, res) => {
-  console.log("+++++++++++++++++hit\n");
   console.log(req.body);
   console.log(req.session);
   try {
